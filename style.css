@@ -5,9 +5,15 @@
 nav{
  height: 15vh;
  width: 100%;
+ /* padding: 10px; */
  display: flex;
  position: sticky;
  flex-direction: row;
+ top: 0;
+ overflow: flex;
+ vertical-align: baseline;
+ background-color: white;
+ z-index: 50;
 }
 .BS{
     height: 28px;
@@ -44,8 +50,8 @@ main{
 }
 .box1{
  background-color:rgb(219, 205, 218);
- height:70vh;
- width: 50vw;
+ height:100vh;
+ width: 45vw;
  position: relative;
  z-index: 0;
  bottom: 265px;
@@ -54,11 +60,11 @@ main{
    position: absolute;
    z-index: 10;
    background-color: rgb(241, 213, 238);
-   height:60vh;
-   width: 27vw;
-   top:140px;
-   left:355px;
-   box-shadow: -8px 8px black;
+   height:70vh;
+   width: 23vw;
+   top:260px;
+   left:405px;
+   box-shadow: -8px 8px 15px black;
 }
 .Profile_pic{
   position: relative;
@@ -75,12 +81,31 @@ main{
     top: 30px;
     left:150px;
 }
+.blue_line{
+    position: relative;
+    font-size: large;
+    font-size: 200px;
+    width: 500px;
+    color: blue;
+    text-align: center;
+    z-index: 30;
+    right: 65px;
+    bottom: 90px;
+}
+.Name_2{
+    position: relative;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -110px;
+    left:10px;
+    text-align: center;
+}
 .box4{
     position: relative;
     background-color: white;
     z-index: 20;
-    height: 5vh;
-    top:58px;
+    height: 6vh;
+    top:-45px;
 }
 .social{
     position: relative;
@@ -89,14 +114,15 @@ main{
 }
 .Insta{
     left: 240px;
-    bottom:120px;
+    bottom:110px;
 }
 .Gmail{
    left:60px;
+   top: 7px;
 }
 .Linkdin{
     left:150px;
-    bottom:60px;
+    bottom:50px;
 }
 h1{
     position: relative;
